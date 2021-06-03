@@ -16,7 +16,7 @@ The following environment variables can be set:
 
 ```shell
 $ export INPUT='piechart' #or barplot
-$ CSV_PATH=/data/data/test1000.csv
+$ CSV_PATH=/data/test1000.csv
 $ OUTPUT_PATH=/data/histimg.png
 $ COLUMN_NAME=Census_PowerPlatformRoleName
 $ THRESHOLD_OTHERS=10
