@@ -12,4 +12,4 @@ drop_nan = True
 
 #local testing
 def test_visualizatino():
-  assert visualization(kind, csv_path, output_path, column_name, threshold_others, title, drop_nan) == "data/histimg.png"
+  assert groupbyplot(kind, csv_path, output_path, column_name, threshold_others, title, drop_nan) == "data/histimg.png"
