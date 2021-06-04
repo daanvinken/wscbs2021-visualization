@@ -1,6 +1,6 @@
 # WSCBS2021 Visualization
 
-This is an example Brane package to explore data by visualization, using Matplotlib (Python package).
+This is an example [Brane](https://docs.brane-framework.org/) package to explore data by visualization, using Matplotlib (Python package).
 It can group columns of CSVs and show a bar plot / pie chart of the number of occurences.
 Futhermore a threshold is available to place values below a specific count,
 which will be merged in a group called "Others".
