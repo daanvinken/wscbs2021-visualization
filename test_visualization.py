@@ -1,4 +1,3 @@
-
 from brane_visualization import groupbyplot
 
 # set input variables
@@ -10,6 +9,11 @@ threshold_others = float(10)
 title = "PlatformTypes"
 drop_nan = True
 
-#local testing
+# local testing
 def test_visualizatino():
-  assert groupbyplot(kind, csv_path, output_path, threshold_others, title, drop_nan, column_name) == "data/histimg.png"
+    assert (
+        groupbyplot(
+            kind, csv_path, output_path, threshold_others, title, drop_nan, column_name
+        )
+        == "data/histimg.png"
+    )
