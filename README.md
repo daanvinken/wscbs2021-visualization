@@ -35,8 +35,7 @@ brane push visualization 1.0.0
 For an overview of the parameters of the brane package, you can `test` the package
 ```shell
 $ brane --debug test visualization --data data
-# use parameters:
-# - 
+# example parameters:
 # - piechart
 # - /data/data/test1000.csv
 # - /data/piechart.png
