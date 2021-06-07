@@ -12,6 +12,9 @@ Import it as follows:
 $ brane import daanvinken/wscbs2021-visualization
 ```
 
+<img src="https://i.ibb.co/6B7jGgM/testimg.png"
+     alt="example plot" />
+
 The following environment variables can be set:
 
 ```shell
@@ -28,3 +31,20 @@ You also need to push the package to be able to import it in your remote session
 ```shell
 brane push visualization 1.0.0
 ```
+
+For an overview of the parameters of the brane package, you can `test` the package
+```shell
+$ brane --debug test visualization --data data
+# use parameters:
+# - 
+# - piechart
+# - /data/data/test1000.csv
+# - /data/piechart.png
+# - 10.0
+# - PlatformTypes
+# - true
+# - Census_PowerPlatformRoleName
+```
+
+The package can be build and published with `make build`.
+After which the example notebook can be executed within the Jupyter IDE.
